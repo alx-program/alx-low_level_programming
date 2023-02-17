@@ -3,13 +3,14 @@
  * main - entry point
  *
  * Return: alway returns 0
+ *
  */
 int main(void)
 {
-	char ch;
+	char a;
 
-	for(ch = 'z'; ch >= 'a'; ch--)
-		putchar(ch);
+	for (a = 'z'; a >= 'a' ; a--)
+		putchar(a);
 	putchar('\n');
-	return(0);
+	return (0);
 }
