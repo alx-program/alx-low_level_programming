@@ -1,19 +1,15 @@
-#include <stdio.h>
-
 /**
- *
  * main - entry point
- * Return: Always return 0
+ *
+ * Return: alway returns 0
  *
  */
-
 int main(void)
 {
-	int n = 0;
+	int a = 0;
 
-	for (; n < 10; n++)
-		putchar('0' + n);
+	for (; a < 10 ; a++)
+		putchar('0' + a);
 	putchar('\n');
-
 	return (0);
 }
